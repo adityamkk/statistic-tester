@@ -1,4 +1,4 @@
-# statistic-tester
+# Statistical Tester
 
 Conducts statistical tests with simple sets of data OR parameters
 Has:
