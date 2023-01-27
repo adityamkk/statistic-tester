@@ -41,7 +41,7 @@ public class TwoMeanTTest extends Test {
 	
 	//https://www.statsdirect.co.uk/help/parametric_methods/utt.htm
 	public double getDF() {
-		double df = Math.pow(Math.pow(this.getStDev1(), 2)/this.getN1() + Math.pow(this.getStDev2(), 2), 2);
+		double df = Math.pow(Math.pow(this.getStDev1(), 2)/this.getN1() + Math.pow(this.getStDev2(), 2)/this.getN2(), 2);
 		df /= Math.pow(Math.pow(this.getStDev1(), 2)/this.getN1(),2)/(this.getN1()-1) + Math.pow(Math.pow(this.getStDev2(), 2)/this.getN2(),2)/(this.getN2()-1);
 		return df;
 	}
